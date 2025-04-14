@@ -1,62 +1,63 @@
 // CLUB-CONTENT
 
-// HEADER
-.club-main-content .profile-content .name::before {
-  content: " ";
-  top: -2%;
-  left: -2%;
-  width: 31px;
-  height: 31px;
-  position: absolute;
-  background-size: 31px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../assets/img/profile.png);
-}
+//  header.club-main-content .profile-content .name::before {
+//   content: " ";
+//   top: -2%;
+//   left: -2%;
+//   width: 31px;
+//   height: 31px;
+//   position: absolute;
+//   background-size: 31px;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-image: url(../assets/img/profile.png);
+// }
 
-.notification-icon::after {
-  content: "";
-  top: 13%;
-  width: 8px;
-  right: 12%;
-  height: 8px;
-  border-radius: 50%;
-  position: absolute;
-  display: none;
-  background-color: #dc2626;
+// .notification-icon::after {
+//   content: "";
+//   top: 13%;
+//   width: 8px;
+//   right: 12%;
+//   height: 8px;
+//   border-radius: 50%;
+//   position: absolute;
+//   display: none;
+//   background-color: #dc2626;
 
-  @media (min-width: 640px) {
-    display: block;
-  }
-}
+//   @media (min-width: 640px) {
+//     display: block;
+//   }
+// }
 
 // DASHBOARD-CONTENT
 
-.dashboard-card::after {
-  content: "";
-  top: 0%;
-  left: 54%;
-  width: 500px;
-  height: 200px;
-  position: absolute;
-  display: none;
-  background-repeat: no-repeat;
-  background-image: url(../assets/img/league-background-img.png);
+// .dashboard-card::after {
+//   content: "";
+//   top: 0%;
+//   left: 54%;
+//   width: 500px;
+//   height: 200px;
+//   position: absolute;
+//   display: none;
+//   background-repeat: no-repeat;
+//   background-image: url(../assets/img/league-background-img.png);
 
-  @media (min-width: 640px) {
-    display: block;
-  }
-}
+//   @media (min-width: 640px) {
+//     display: block;
+//   }
+// }
 
 // LEAGUE-MATCHES
 
-.input-field::before {
-  content: "";
-  left: 6%;
-  top: 40%;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-image: url(../assets/img/search.png);
-}
+// .input-field::before {
+//   content: "";
+//   left: 6%;
+//   top: 40%;
+//   width: 20px;
+//   height: 20px;
+//   position: absolute;
+//   background-repeat: no-repeat;
+//   background-image: url(../assets/img/search.png);
+// }
+
+
