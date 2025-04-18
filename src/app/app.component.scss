@@ -3,10 +3,15 @@
   top: 12%;
   right: 15%;
   width: 8px;
+  display: none;
   height: 8px;
   position: absolute;
   border-radius: 50%;
   background-color: #dc2626;
+
+  @media (min-width: 640px) {
+    display: block;
+  }
 }
 
 .name::before {
@@ -18,18 +23,19 @@
   position: absolute;
   background-size: 30px;
   background-position: center;
+  color: #0083e0;
   background-repeat: no-repeat;
   background-image: url(../assets/img/profile.png);
 }
-
-.state::before {
+.search::before {
   content: "";
-  top: 35%;
-  right: 5%;
-  width: 12px;
-  height: 12px;
+  top: 28%;
+  left: 2%;
+  width: 16px;
+  height: 16px;
   position: absolute;
+  background-size: 16px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/img/drop-down-icon.png);
+  background-image: url(../assets/img/search.png);
 }
