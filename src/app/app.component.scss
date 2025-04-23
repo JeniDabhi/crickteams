@@ -1,92 +1,57 @@
-.notification-icon::before {
-  content: "";
-  top: 12%;
-  right: 15%;
-  width: 8px;
-  display: none;
-  height: 8px;
-  position: absolute;
-  border-radius: 50%;
-  background-color: #dc2626;
-
-  @media (min-width: 640px) {
-    display: block;
-  }
-}
-
-.name::before {
+.name::after {
   content: "";
   top: 0%;
   left: 0%;
-  width: 30px;
-  height: 29px;
+  width: 25px;
+  height: 25px;
   position: absolute;
-  background-size: 30px;
-  background-position: center;
-  color: #0083e0;
+  background-size: 25px;
   background-repeat: no-repeat;
   background-image: url(../assets/img/profile.png);
 }
+.notification::before {
+  content: "";
+  top: 10%;
+  right: 23%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 100%;
+  background-size: 6px;
+  background-color: red;
+}
 .search::before {
   content: "";
-  top: 28%;
-  left: 2%;
-  width: 16px;
-  height: 16px;
+  top: 24%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  padding-left: 5px;
   position: absolute;
-  background-size: 16px;
-  background-position: center;
   background-repeat: no-repeat;
   background-image: url(../assets/img/search.png);
 }
 
-.league::before {
-  content: "";
-  top: 62%;
-  right: 4%;
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  background-size: 12px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../assets/img/drop-down-icon.png);
-}
 
-.state::before {
-  content: "";
-  top: 48%;
-  right: 4%;
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  background-size: 12px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../assets/img/drop-down-icon.png);
-}
-
-.end-date::after {
-  content: "";
-  top: 0%;
-  left: 15%;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  background-size: 15px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../assets/img/error.png);
-}
+// VERTICAL AND HORIZONTAL SCROLLBAR
 
 ::-webkit-scrollbar {
-  width: 5px;
+  height: 2px;
+  width: 2px;
+  background: gray;
 }
+::-webkit-scrollbar-thumb:horizontal {
+  background: #a9a8a8;
+  border-radius: 5px;
+}
+
+/* Track */
 ::-webkit-scrollbar-track {
-  background-color: #dee9f4;
-  border-radius: 180px;
+  background: #f1f1f1;
 }
+
+/* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #73787d;
-  border-radius: 10px;
+  background: #abb0b6;
+  border-radius: 5px;
 }
